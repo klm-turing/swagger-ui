@@ -38,6 +38,7 @@ import KeywordDependentRequired from "./components/keywords/DependentRequired/De
 import KeywordContentSchema from "./components/keywords/ContentSchema"
 import KeywordTitle from "./components/keywords/Title/Title"
 import KeywordDescription from "./components/keywords/Description/Description"
+import KeywordTechnicalError from "./components/keywords/TechnicalError/TechnicalError"
 import KeywordDefault from "./components/keywords/Default"
 import KeywordDeprecated from "./components/keywords/Deprecated"
 import KeywordReadOnly from "./components/keywords/ReadOnly"
@@ -96,6 +97,7 @@ export const withJSONSchemaContext = (Component, overrides = {}) => {
       KeywordContentSchema,
       KeywordTitle,
       KeywordDescription,
+      KeywordTechnicalError,
       KeywordDefault,
       KeywordDeprecated,
       KeywordReadOnly,

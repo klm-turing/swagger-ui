@@ -60,6 +60,7 @@ import DeepLink from "core/components/deep-link"
 import SvgAssets from "core/components/svg-assets"
 import Markdown from "core/components/providers/markdown"
 import BaseLayout from "core/components/layouts/base"
+import TechnicalError from "core/components/TechnicalError"
 
 const CoreComponentsPlugin = () => ({
   components: {
@@ -103,6 +104,7 @@ const CoreComponentsPlugin = () => ({
     contentType: ContentType,
     overview: Overview,
     footer: Footer,
+    technicalError: TechnicalError,
     FilterContainer,
     ParamBody: ParamBody,
     curl: Curl,

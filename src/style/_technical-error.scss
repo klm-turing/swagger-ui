@@ -1,0 +1,17 @@
+.technicalError 
+{
+    table
+    {
+        border: 1px solid $table-thead-td-border-bottom-color;
+
+        tr 
+        {
+            font-weight: 600;
+        }
+    
+        thead > tr
+        {
+            color: $color-primary;
+        }
+    } 
+}
